@@ -21,6 +21,7 @@ export default class App extends React.Component{
 		return (
 			<PlacarContainer 
 			{...dados}
+			tempo={92}
 			/>
 		);
 	}
